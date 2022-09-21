@@ -1,0 +1,79 @@
+.buttonPost{
+    display: flex;
+    height: 35px;
+    width: 100%; 
+    font-family: 'Passion One', cursive;
+}
+
+.confi{
+    border-radius: 3px;
+    padding: 1px 2rem;
+    display: flex;
+    align-items: center;
+    background-color:rgb(38, 134, 90);
+    height: 80%;
+    width: 5px;
+    margin: 2px;
+    font-family: 'Passion One', cursive;
+  
+}
+.opblock-title{
+    width: 10%;
+    font-family: 'Passion One', cursive;
+} 
+
+.btnTry{
+    margin: 30px;
+
+    
+}
+.try-out{
+    background-color: aqua;
+
+
+   
+}
+.btnTry{
+    float: right;
+    transform: translate(-1000%, -90%);
+   
+}
+.description{
+    float: right;
+    transform: translate(-900%, -90%);
+    font-family: 'Passion One', cursive;
+    margin: 10px;
+    
+}
+.name{
+    margin: 5px;
+
+}
+.interger{
+    margin: 10px;
+}
+.update{
+    float: right;
+    transform: translate(-500%, -10%);
+
+    }
+
+
+}
+.btnTry{
+  float: right;
+  transform: translate(-1000%, -90%);
+ 
+}
+.description{
+  float: right;
+  transform: translate(-900%, -90%);
+  font-family: 'Passion One', cursive;
+  margin: 20px;
+}
+.table-align{
+  background-color: #5bc47438;
+  border: 2px solid #5bc473;
+  border-radius: 4px ;
+  border-top: 0;
+

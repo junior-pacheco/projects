@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style1.css">
+    <title>Firmware</title>
+    <form action="Bienvenido"></form>
+    
+</head>
+
+<body>
+
+    <form class="formulario">
+        <header>
+            <div class="header">     
+                <h1 class="titulo">Firmware Update </h1>
+                <img class="icono" src="/img/icono1.svg" alt="">
+            </div>
+        </header>
+                <div class="campo">
+                    <input class="archivo" type="file" name="" id="" accept=".bin"> 
+                    <div class="progress">
+                    <div class="progress-bar" role="progressbar " style="width: 2
+                    0%;" ="20" aria-valuemin="0" aria-valuemax="100">100%</div>
+                    <input class="boton1" type="submit" value= "UPDATE" id="btn1"  onclick="desactivarBtn()">
+                    
+                    <input class="boton2" type="button" value="CANCEL" id="btn2" disabled="false" onclick="alertMensaje()">
+                    </div>    
+            </div>         
+    </form>
+    <script src="pagina.js"></script>
+</body>
+</html>
