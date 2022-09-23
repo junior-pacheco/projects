@@ -9,7 +9,7 @@ html{
 
 body{
     font-size: 16px; /* 1rem =10px*/
-    background-color:#ffffff;
+    background-color:#f3f5f9;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -19,12 +19,15 @@ body{
     height: auto;
     background-color: #20598b;
     
-    
-    
 }
 
 .header{
 display: flex;
+background-image: url("../inicio/img/Red.svg") ;
+background-size:500px;
+
+
+
 }
 
 .title{
@@ -57,7 +60,7 @@ display: flex;
     list-style: none;
     align-items: center;
     gap: 12px;
-    background-color:#ffffff;
+    background-color:#ffffff00;
 
 }
 
@@ -66,8 +69,8 @@ li{
     padding: 0 0;
 }
 
-.navbar1{
-    background-color: none;
+.btn{
+    background-color: #e4e4e4;
     position: relative;
     padding: 20px;
     letter-spacing: 3px;
@@ -81,13 +84,10 @@ li{
     
 }
 
-.navbar1:hover{
+.btn:hover{
     color: rgb(255, 255, 255);
     background-color: #20598b;
     box-shadow: 0px 12px 30px #20598b69;
     transition-delay: 0.1s;
     border-radius: 10px;
-}
-.botones{
-    background-color: aqua;
 }

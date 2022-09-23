@@ -24,3 +24,7 @@ h2.forEach( ( cadaH2 , i )=>{
 
     })
 })
+
+function mybutton(){
+    window.location.href = "../inicio/inicio.html"
+}

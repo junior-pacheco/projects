@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/DEVICE/device.css">
+    <link rel="stylesheet" href="/Nueva carpeta/DEVICE/device.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
-    <title>Document</title>
+    <title>Device</title>
   </head>
 <body>
-  </style>
     <div class="container">
       <header>
           <header class="header">
@@ -28,223 +27,71 @@
   </div>
     <div class="containerPost">
         <div class="accordion">
+          <h1 class="device">Device</h1>
               <div class="block active">
-              <h2 class="h2">POST</h2>
-              <div class="content">                  <table class="parameters">
+              <h2 class="h2">Configuration Device/ cgi-get</h2> 
+              <div class="content">
+              <table class="parameters">
                 <thead class="table-header">
                   <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
+                    <th class="col-header">Config Device </th>
                   </tr>
                 </thead>
-
                 <tbody class="parameters-tbody">
                   <tr>
                     <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
-                </tbody>
+                      <div class="codigo">{
+                        <p>"response": "200",</p>
+                        <p>"message": "Request Successfull, Sending device</p>
+                        <p>config",</p>
+                        <p>"task": "Device configutation",</p>
+                        <p>"result": {</p>
+                        <p>"deviceName": "WR",</p>
+                        <p>"deviceType": "Ethernet",</p>
+                        <p>"macAddress": "94:B9:7E:FA:D4:3C",</p>
+                        <p>"deviceId": "WR-FAD43C",</p>
+                        <p>"httpPass": "admin",</p>
+                        <p>"firmware": "1.0",</p>
+                            <p>"hardware": "1.0"</p>
+                        }
+                    }</div>
+                  </td>
+                </tr>
+              </tbody>
               </table></div>
         </div>
               <div class="block">
-              <h2 class="h2">Indice 1</h2>
-              <div class="content"                  
+              <div class="block active">
+              <h2 class="h2">Read Version Device/ cgi-get</h2>
+              <div class="content" >   
+              <table class="parameters">          
                 <thead class="table-header">
                   <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
+                    <th class="col-header">Version Device</th>
                   </tr>
                 </thead>
-
                 <tbody class="parameters-tbody">
                   <tr>
                     <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
-                </tbody>
-              </table></div>
-        </div>
-              <div class="block">
-              <h2 class="h2">Indice 2</h2>
-              <div class="content">                  <table class="parameters">
-                <thead class="table-header">
-                  <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
-                  </tr>
-                </thead>
-
-                <tbody class="parameters-tbody">
-                  <tr>
-                    <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
-                </tbody>
-              </table></div>
-        </div>
-              <div class="block">
-              <h2 class="h2">Indice 3</h2>
-              <div class="content">                  <table class="parameters">
-                <thead class="table-header">
-                  <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
-                  </tr>
-                </thead>
-
-                <tbody class="parameters-tbody">
-                  <tr>
-                    <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
-                </tbody>
+                      <div class="codigo">{
+                          <p>"response": "200",</p>
+                          <p>"message": "Request successful, ip adress sent",</p>
+                          <p>"task": "Get ip address",</p>
+                          <p>"result": {</p>
+                          <p>"version": "1.0"</p>
+                          }
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
               </table></div>
         </div>
       </div>
   </div>
+</div>
   <div class="btn">
-    <input value ="Home" id="btnhome" class="home" type="button"></input>
+    <button onclick="mybutton();" id="myButton" class="btns" >Home</button>
     </div>
-    <script src="/DEVICE/device.js"></script>
+    <script src="/Nueva carpeta/DEVICE/device.js"></script>
   </body>
 </html>

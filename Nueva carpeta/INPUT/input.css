@@ -9,6 +9,7 @@ html{
 
 body{
   font-size: 16px; /* 1rem =10px*/
+  font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -21,6 +22,8 @@ body{
 .header{
 display: flex;
 overflow: hidden;
+background-image: url("../img/Red.svg") ;
+background-size:500px;
 }
 
 .title{
@@ -46,17 +49,17 @@ overflow: hidden;
 }
 
 .accordion{
-  width: 90%;
-  background-color: #fff;
-  padding: 1.5rem ;
-  border:solid;
+  width: 70%;
+  background-color: "fff0";
+  padding: 2.5rem ;
+  border:solid 1px;
+  border-radius: 10px;
   border-color: #20598b;
 }
 
 .block{
-  background-color:#ffffff;
-  padding: 1rem;
-  border-radius: 10px;
+  background-color:#fff0;
+  padding: 1rem;;
 }
 
 .h2{
@@ -64,20 +67,50 @@ overflow: hidden;
   padding: 1rem;
   border-radius: 1px;
   color:#fff;
+  border-radius: 10px;
 }
 
 .content{
-  background-color: #6aa9e0;
-  padding: 0;
+  background-color: #bcdaf548;
+  padding: 0 35px;
+  margin-top:10px ;
   height: 0;
   overflow: hidden;
   transition: .1s;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .block.active .content{
   height: 100%;
   border:solid;
-  border-color: #6aa9e0;
-  border-radius: 1px;
+  border-color: #bcdaf548;
+  border-radius: 10px;
+}
+.btn {
+  width: 25%;
+  background-color:  #1D85FF;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin:auto;
+  text-decoration: none;
+  border-radius: 10px;
+  border-color:  #1D85FF;
+  margin: 40px auto;
+
+}
+.btns{
+  width: 100%;
+  text-decoration: none;
+  color:#fff;
+  background-color: #20598b ;
+  padding:15px;
+  border-color:  #20598b;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.btns:hover{
+  background-color: #1D85FF ;
+  border-color: #1D85FF;
+  cursor:pointer;
 }

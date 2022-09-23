@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/WIEGAND/wiegand.css" />
+    <link rel="stylesheet" href="/Nueva carpeta/WIEGAND/wiegand.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
-    <title>Document</title>
+    <title>Wiegand</title>
   </head>
   <body>
     <div class="container">
@@ -27,8 +27,9 @@
   </div>
     <div class="containerPost">
         <div class="accordion">
+                          <h1 class="wiegand">Wiegand</h1>
               <div class="block active">
-              <h2 class="h2">POST</h2>
+              <h2 class="h2">Configuration Wiegand/ cgi-get</h2>
               <div class="content">                  <table class="parameters">
                 <thead class="table-header">
                   <tr>
@@ -81,7 +82,7 @@
               </table></div>
         </div>
               <div class="block">
-              <h2 class="h2">Indice 1</h2>
+              <h2 class="h2">Last Card Wiegand/ cgi-get</h2>
               <div class="content"                  
                 <thead class="table-header">
                   <tr>
@@ -134,8 +135,9 @@
               </table></div>
         </div>
               <div class="block">
-              <h2 class="h2">Indice 2</h2>
-              <div class="content">                  <table class="parameters">
+              <h2 class="h2">Update Wiegand/ cgi-set</h2>
+              <div class="content">                  
+              <table class="parameters">
                 <thead class="table-header">
                   <tr>
                     <th class="col-header">Name</th>
@@ -186,61 +188,15 @@
                 </tbody>
               </table></div>
         </div>
-              <div class="block">
-              <h2 class="h2">Indice 3</h2>
-              <div class="content">                  <table class="parameters">
-                <thead class="table-header">
-                  <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
-                  </tr>
-                </thead>
-
-                <tbody class="parameters-tbody">
-                  <tr>
-                    <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
+              
                 </tbody>
               </table></div>
         </div>
       </div>
   </div>
-    <script src="/WIEGAND/wiegand.js"></script>
+  <div class="btn">
+    <button onclick="mybutton();" id="myButton" class="btns" >Home</button>
+    </div>
+    <script src="/Nueva carpeta/WIEGAND/wiegand.js"></script>
   </body>
 </html>
