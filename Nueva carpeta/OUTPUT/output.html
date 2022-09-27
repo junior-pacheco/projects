@@ -25,120 +25,191 @@
               </svg>
       </header>
   </div>
-    <div class="containerPost">
+  <div class="containerPost">
+    <div class="accordion">
+      <h1 class="lan">Output</h1>
+          <div class="block active">
+          <h2 class="h2">Configuration Output/ cgi-get</h2>
+          <div class="content">              
+          <table class="parameters">
+            <thead class="table-header">
+              <tr>
+                <th class="col-header">Name</th>
+                <th class="col-header">Description</th>
+              </tr>
+            </thead>
+
+            <tbody class="parameters-tbody">
+              <tr>
+                <td>
+                  <div class="parameters-name">INFOO1</div>
+                </td>
+                <td>
+                  <div>
+                    <p>ID of pet to update</p>
+                  </div>
+                  <input
+                    class="id-input"
+                    type="text"
+                    placeholder="PetIdd"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>INFOO1</td>
+                <td>
+                  <div>
+                    <p>Additional data to pass to server</p>
+                  </div>
+                  <input
+                    class="id-input"
+                    type="text"
+                    placeholder="PetId"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>INFOO1</td>
+                <td>
+                  <div>
+                    <p>file to upload</p>
+                  </div>
+                  <input class="file" type="file" placeholder="PetId" />
+                </td>
+              </tr>
+            </tbody>
+          </table></div>
+    </div>
+
+          <div class="block">
+          <h2 class="h2">Update Output/ cgi-set</h2>
+          <div class="content" >   
+          <table class="parameters">             
+            <thead class="table-header">
+              <tr>
+                <th class="col-header">Name</th>
+                <th class="col-header">Description</th>
+              </tr>
+            </thead>
+
+            <tbody class="parameters-tbody">
+              <tr>
+                <td>
+                  <div class="parameters-name">INFOO1</div>
+                </td>
+                <td>
+                  <div>
+                    <p>ID of pet to update</p>
+                  </div>
+                  <input
+                    class="id-input"
+                    type="text"
+                    placeholder="PetIdd"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>INFOO1</td>
+                <td>
+                  <div>
+                    <p>Additional data to pass to server</p>
+                  </div>
+                  <input
+                    class="id-input"
+                    type="text"
+                    placeholder="PetId"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>INFOO1</td>
+                <td>
+                  <div>
+                    <p>file to upload</p>
+                  </div>
+                  <input class="file" type="file" placeholder="PetId" />
+                </td>
+              </tr>
+            </tbody>
+          </table></div>
+    </div> 
+            </tbody>
+          </table></div>
+    </div>
+  </div>
+</div>
+    <!-- <div class="containerPost">
         <div class="accordion">
-          <h1 class="output">Output</h1>
-              <div class="block active">
-              <h2 class="h2">Configuration Output/ cgi-get</h2>
-              <div class="content">                  <table class="parameters">
-                <thead class="table-header">
-                  <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
-                  </tr>
-                </thead>
+          <h1 class="device">Output</h1>
+          <div class="block active">
+            <h2 class="h2">Configuration Wiegand/ cgi-get</h2>
+            <div class="content">               
+              <table class="parameters">
+              <thead class="table-header">
+                <tr>
+                  <th class="col-header">Config Output 1</th>
+                </tr>
+              </thead>
 
                 <tbody class="parameters-tbody">
                   <tr>
                     <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
-                </tbody>
-              </table></div>
-        </div>
-              <div class="block">
-              <h2 class="h2">Update Output/ cgi-set</h2>
-              <div class="content"                  
-                <thead class="table-header">
-                  <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
-                  </tr>
-                </thead>
+                      <div class="codigo">{
+                        <p>"response": "406",</p>
+                          <P>"message": "the changes to apply are the</P>
+                          <P>same as the existing configuration or</P>
+                          <p>the output to configure is not valid, </p>
+                          <P> the update failed",</P>
+                          <p>"task": "change output1 configuration",</p>
+                          <P> "result": { </P>
+                          <p>"changes": "none"  </p>
+                          }
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="block active">
+            <h2 class="h2">Configuration Wiegand/ cgi-get</h2>
+            <div class="content">              
+              <table class="parameters">
+              <thead class="table-header">
+                <tr>
+                  <th class="col-header">Config Wiegand 1</th>
+                </tr>
+              </thead>
+            </table>
 
                 <tbody class="parameters-tbody">
                   <tr>
-                    <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
+                  <td>
+                    <div class="codigo1">{
+                        <p>"response": "200",</P>
+                          <P>"message": "successful request, action </P>
+                          <P>received",</P>
+                          <p>"task": "write to output",</p>  
+                          <p>"output": "1",</p>
+                          <P>"mode": "0", </P>
+                          <p>"write": "1"</p>
+                          }
+                    </div>
+                  </td>
                   </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
-                </tbody>
-              </table></div>
-        </div>
+                <tr>
+              </tbody>
+            </table>
+          </div>
                 </tbody>
               </table></div>
         </div>
       </div>
-  </div>
+  </div> -->
   <div class="btn">
     <button onclick="mybutton();" id="myButton" class="btns" >Home</button>
     </div>

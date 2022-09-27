@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Nueva carpeta/WIEGAND/wiegand.css" />
+    <link rel="stylesheet" href="/Nueva carpeta/DEVICE/device.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -25,114 +25,337 @@
               </svg>
       </header>
   </div>
-    <div class="containerPost">
+  
+  <div class="containerPost">
+    <div class="accordion">
+      <h1 class="input">Wiegand</h1>
+          <div class="block active">
+            <h2 class="h2">Configuration Wiegand/ cgi-get </h2>
+          <div class="content">                  
+            <table class="parameters">
+            <thead class="table-header">
+              <tr>
+                <th class="col-header">Config Wiegand</th>
+              </tr>
+            </thead>
+
+            <tbody class="parameters-tbody">
+              <tr>
+                <td>
+                  <div class="codigo">
+                    <p>{
+                      "response": "200",
+                      <p>
+                      "message": "Request Successfull, Sending wiegand config",
+                      </p>
+                      "task": "Wiegand configutation",
+                      <p>
+                      "result": {
+                      </p> 
+                          "status": "1",
+                          <p>
+                          "serverMode": "0",
+                          </p>
+                          "tekneoIp": "192.168.0.231",
+                          <p>
+                          "tekneoPort": "8083",
+                          </p>
+                          "customServer": "192.168.0.221",
+                          <p>
+                          "customPort": "8080",
+                          </p>
+                          "customRoute": "/access-control",
+                          <p>
+                          "cardPrefix": "cardid",
+                          </p>
+                          "macPrefix": "cjihao",
+                          <p>
+                          "macMode": "1",
+                          </p>
+                          "cardMode": "1",
+                          <p>
+                          "actionResponse": "0",
+                          </p>
+                          "output": "1",
+                          <p>
+                          "outputValue": "1",
+                          </p> 
+                          "actionKey": "code",
+                          <p>
+                          "actionValidate": "ACCESS_GRANTED",
+                          </p>
+                          "slave": "0",
+                          <p>
+                          "change": "1"
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+          <div class="block">
+          <h2 class="h2">Update Input/ cgi-set</h2>
+          <div class="content">               
+            <thead class="table-header">
+              <tr>
+                <th class="col-header">Name</th>
+              </tr>
+            </thead>
+
+            <tbody class="parameters-tbody">
+              <tr>
+                <td>
+                  <div class="codigo"><p>{
+                    "response": "200",
+                  <p>
+                    "message": "Request Successfull, Sending
+                  <p>
+                    wiegand config",
+                  </p> 
+                    "task": "Wiegand configutation",
+                  <p>
+                    "result": {
+                  </p> 
+                        "status": "1",
+                        <p>
+                        "serverMode": "0",
+                        </p>
+                        "tekneoIp": "192.168.0.231",
+                        <p>
+                        "tekneoPort": "8083",
+                        </p>
+                        "customServer": "192.168.0.221",
+                        <p>
+                        "customPort": "8080",
+                        </p>
+                        "customRoute": "/access-control",
+                        <p>
+                        "cardPrefix": "cardid",
+                        </p>
+                        "macPrefix": "cjihao",
+                        <p>
+                        "macMode": "1",
+                        </p>
+                        "cardMode": "1",
+                        <p>
+                        "actionResponse": "0",
+                        </p>
+                        "output": "1",
+                        <p>
+                        "outputValue": "1",
+                        </p> 
+                        "actionKey": "code",
+                        <p>
+                        "actionValidate": "ACCESS_GRANTED",
+                        </p>
+                        "slave": "0",
+                        <p>
+                        "change": "1"
+                }</p></div>
+                </td>
+              </tr>
+            </tbody>
+
+          </table>
+        </div>
+    </div>
+    <div class="block">
+      <h2 class="h2">Update Wiegand/ cgi-set</h2>
+      <div class="content">               
+        <thead class="table-header">
+          <tr>
+            <th class="col-header">Name</th>
+          </tr>
+        </thead>
+
+        <tbody class="parameters-tbody">
+          <tr>
+            <td>
+              <div class="parameters-name">
+                
+              </div>
+            </td>
+            <td>
+              <div>
+                <p>ID of pet to update</p>
+              </div>
+              <input
+                class="id-input"
+                type="text"
+                placeholder="PetIdd"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>INFOO1</td>
+            <td>
+              <div>
+                <p>Additional data to pass to server</p>
+              </div>
+              <input
+                class="id-input"
+                type="text"
+                placeholder="PetId"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>INFOO1</td>
+            <td>
+              <div>
+                <p>file to upload</p>
+              </div>
+              <input class="file" type="file" placeholder="PetId" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+            </tbody>
+          </table>
+        </div>
+    </div>
+</div>
+    <!-- <div class="containerPost">
         <div class="accordion">
                           <h1 class="wiegand">Wiegand</h1>
               <div class="block active">
               <h2 class="h2">Configuration Wiegand/ cgi-get</h2>
-              <div class="content">                  <table class="parameters">
+              <div class="content">               
+                <table class="parameters">
                 <thead class="table-header">
                   <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
+                    <th class="col-header">Config Wiegand 1</th>
                   </tr>
                 </thead>
 
                 <tbody class="parameters-tbody">
                   <tr>
                     <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
+                      <div class="codigo">
+                        <p>{
+                          "response": "200",
+                          <p>
+                          "message": "Request Successfull, Sending wiegand config",
+                          </p>
+                          "task": "Wiegand configutation",
+                          <p>
+                          "result": {
+                          </p> 
+                              "status": "1",
+                              <p>
+                              "serverMode": "0",
+                              </p>
+                              "tekneoIp": "192.168.0.231",
+                              <p>
+                              "tekneoPort": "8083",
+                              </p>
+                              "customServer": "192.168.0.221",
+                              <p>
+                              "customPort": "8080",
+                              </p>
+                              "customRoute": "/access-control",
+                              <p>
+                              "cardPrefix": "cardid",
+                              </p>
+                              "macPrefix": "cjihao",
+                              <p>
+                              "macMode": "1",
+                              </p>
+                              "cardMode": "1",
+                              <p>
+                              "actionResponse": "0",
+                              </p>
+                              "output": "1",
+                              <p>
+                              "outputValue": "1",
+                              </p> 
+                              "actionKey": "code",
+                              <p>
+                              "actionValidate": "ACCESS_GRANTED",
+                              </p>
+                              "slave": "0",
+                              <p>
+                              "change": "1"
                       </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
                     </td>
                   </tr>
-
                   <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
                 </tbody>
-              </table></div>
+              </table>
+            </div>
         </div>
-              <div class="block">
-              <h2 class="h2">Last Card Wiegand/ cgi-get</h2>
-              <div class="content"                  
-                <thead class="table-header">
-                  <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
-                  </tr>
-                </thead>
+        <div class="block active">
+        <h2 class="h2">Configuration Wiegand/ cgi-get</h2>
+        <div class="content">               
+          <table class="parameters">
+          <thead class="table-header">
+            <tr>
+              <th class="col-header">Config Wiegand 2</th>
+            </tr>
+          </thead>
 
                 <tbody class="parameters-tbody">
                   <tr>
                     <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
-                </tbody>
-              </table></div>
+                      <div class="codigo">
+                        <p>{
+                          "response": "200",
+                        <p>
+                          "message": "Request Successfull, Sending
+                        <p>
+                          wiegand config",
+                        </p> 
+                          "task": "Wiegand configutation",
+                        <p>
+                          "result": {
+                        </p> 
+                              "status": "1",
+                              <p>
+                              "serverMode": "0",
+                              </p>
+                              "tekneoIp": "192.168.0.231",
+                              <p>
+                              "tekneoPort": "8083",
+                              </p>
+                              "customServer": "192.168.0.221",
+                              <p>
+                              "customPort": "8080",
+                              </p>
+                              "customRoute": "/access-control",
+                              <p>
+                              "cardPrefix": "cardid",
+                              </p>
+                              "macPrefix": "cjihao",
+                              <p>
+                              "macMode": "1",
+                              </p>
+                              "cardMode": "1",
+                              <p>
+                              "actionResponse": "0",
+                              </p>
+                              "output": "1",
+                              <p>
+                              "outputValue": "1",
+                              </p> 
+                              "actionKey": "code",
+                              <p>
+                              "actionValidate": "ACCESS_GRANTED",
+                              </p>
+                              "slave": "0",
+                              <p>
+                              "change": "1"
+                      }</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+            </tbody>
+        </table>
+      </div>
         </div>
               <div class="block">
               <h2 class="h2">Update Wiegand/ cgi-set</h2>
@@ -140,51 +363,22 @@
               <table class="parameters">
                 <thead class="table-header">
                   <tr>
-                    <th class="col-header">Name</th>
-                    <th class="col-header">Description</th>
+                    <th class="col-header">Updadte</th>
                   </tr>
                 </thead>
 
                 <tbody class="parameters-tbody">
                   <tr>
                     <td>
-                      <div class="parameters-name">INFOO1</div>
-                    </td>
-                    <td>
-                      <div>
-                        <p>ID of pet to update</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetIdd"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>Additional data to pass to server</p>
-                      </div>
-                      <input
-                        class="id-input"
-                        type="text"
-                        placeholder="PetId"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>INFOO1</td>
-                    <td>
-                      <div>
-                        <p>file to upload</p>
-                      </div>
-                      <input class="file" type="file" placeholder="PetId" />
-                    </td>
-                  </tr>
+                      <div class="codigo">
+                        <p>"response": "406",</p>
+                        <p>"message": "the changes to apply are the same</p>
+                        <p> as the existing configuration, the update </p>
+                      <p> failed",</p>
+                        <p>"task": "change wiegand1 configuration",</p>
+                        <p>"result": {</p>
+                        <p>"changes": "none"</p> 
+                        }
                 </tbody>
               </table></div>
         </div>
@@ -193,7 +387,7 @@
               </table></div>
         </div>
       </div>
-  </div>
+  </div> -->
   <div class="btn">
     <button onclick="mybutton();" id="myButton" class="btns" >Home</button>
     </div>
